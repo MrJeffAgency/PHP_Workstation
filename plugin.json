@@ -1,0 +1,13 @@
+{
+  "id": "mrjeffagency.phpworkstation",
+  "name": "PHP Workstation",
+  "main": "main.js",
+  "version": "1.1.3",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "changelogs": "changelogs.md",
+  "files": ["changelogs.md"],
+  "minVersionCode": 290,
+  "price": 0,
+  "author": { "name": "mrjeffagency", "github": "mrjeffagency" }
+}

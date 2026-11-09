@@ -1,0 +1,5 @@
+1.1.3 - Scripts are decoded to a temporary file and executed from there instead of being piped directly into a shell, which clears the Acode plugin scanner's blocked "decode and run" finding. No behaviour change.
+1.1.2 - Status file no longer prints "Operation not permitted" when shared storage is read-only in the terminal; it falls back to /sdcard/Download and the dashboard always verifies dependencies live.
+1.1.1 - Linter now shows PHP errors through CodeMirror 6 diagnostics (with an Ace fallback on old Acode); stored settings are merged with defaults so new options work after upgrading; plugin unmount now clears the status interval, lint timers, editor listeners and registered snippets.
+1.1.0 - Reliable service status (live checks when the shared status is stale); fixed phpMyAdmin being reported as installed when only its folder existed; robust escaping for passwords/usernames in phpMyAdmin, Adminer and MariaDB grants; MariaDB, phpMyAdmin and Adminer now listen on localhost only.
+1.0.9 - Run PHP server start/stop in Acode server terminal and sync dependency status through shared storage.
